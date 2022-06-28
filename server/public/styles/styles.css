@@ -1,0 +1,8 @@
+body{
+    margin: 50px;
+}
+#tableWrapper, #tableWrapper td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
