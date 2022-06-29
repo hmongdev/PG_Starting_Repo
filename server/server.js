@@ -16,10 +16,8 @@ app.use(express.static('server/public'));
 let songsRouter = require('./routes/songs.router');
 app.use('/songs', songsRouter);
 
-
 // Start express
 const PORT = 5000;
 app.listen(PORT, () => {
     console.log('up and running on port', PORT);
 });
-
